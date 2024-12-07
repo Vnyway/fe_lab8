@@ -7,7 +7,7 @@ const Goods = () => {
   return (
     <section className="container mx-auto mt-[80px]">
       <Heading center={true} title="Current Auctions" desc="AUCTION" />
-      <div className="grid grid-cols-4 gap-[20px] mt-[60px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[20px] mt-[60px]">
         {goods.map((item) => (
           <GoodsCard
             key={item.id}

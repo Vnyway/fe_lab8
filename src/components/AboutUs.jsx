@@ -5,7 +5,7 @@ import { about } from "../constants";
 
 const AboutUs = () => {
   return (
-    <section className="container mx-auto mt-[80px] flex gap-[40px] items-center">
+    <section className="container mx-auto mt-[80px] flex-col lg:flex-row flex gap-[40px] items-center">
       <div className="flex-1">
         <img src="./images/hero_1.jpg" alt="hero" className="object-contain" />
       </div>

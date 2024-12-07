@@ -7,7 +7,7 @@ const Usage = () => {
   return (
     <section className="container mx-auto mt-[80px]">
       <Heading title="How it works" desc="HOW?" />
-      <div className="mt-[60px] grid grid-cols-4 gap-[40px]">
+      <div className="mt-[60px] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[40px]">
         {steps.map((step) => (
           <StepCard
             arrow={step.id === steps.length ? false : true}
