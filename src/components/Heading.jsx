@@ -1,6 +1,6 @@
 import React from "react";
 
-const Heading = (desc, title, center) => {
+const Heading = ({ desc, title, center }) => {
   return (
     <div className={`flex flex-col gap-[5px] ${center ? "text-center" : ""}`}>
       <span className="text-[16px] font-[500] text-primary">{desc}</span>
