@@ -114,3 +114,24 @@ export const steps = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.",
   },
 ];
+
+export const about = [
+  {
+    id: 1,
+    img: "./images/plane.png",
+    title: "Fast Support",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!",
+  },
+  {
+    id: 2,
+    img: "./images/smile.png",
+    title: "Happy Customers",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!",
+  },
+  {
+    id: 3,
+    img: "./images/help.png",
+    title: "24/7 Support",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!",
+  },
+];
