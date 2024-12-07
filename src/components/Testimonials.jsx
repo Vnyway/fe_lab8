@@ -5,13 +5,32 @@ import { testimonials } from "../constants";
 
 const Testimonials = () => {
   const [page, setPage] = useState(0);
+  const [isLarge, setIsLarge] = useState(window.innerWidth > 768);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setPage((prevPage) => (prevPage + 1) % (testimonials.length / 2));
-    }, 10000);
+      setPage(
+        (prevPage) =>
+          (prevPage + 1) %
+          (isLarge ? testimonials.length / 2 : testimonials.length)
+      );
+    }, 1000);
 
     return () => clearInterval(interval);
+  }, [isLarge]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLarge(window.innerWidth > 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return (
@@ -60,6 +79,21 @@ const Testimonials = () => {
               page === 2 ? "bg-white" : "bg-black bg-opacity-30"
             }`}
             onClick={() => setPage(2)}></button>
+          <button
+            className={`w-[20px] h-[4px] md:hidden transition-all ease-in-out duration-1000 ${
+              page === 3 ? "bg-white" : "bg-black bg-opacity-30"
+            }`}
+            onClick={() => setPage(3)}></button>
+          <button
+            className={`w-[20px] h-[4px] md:hidden transition-all ease-in-out duration-1000 ${
+              page === 4 ? "bg-white" : "bg-black bg-opacity-30"
+            }`}
+            onClick={() => setPage(4)}></button>
+          <button
+            className={`w-[20px] h-[4px] md:hidden transition-all ease-in-out duration-1000 ${
+              page === 5 ? "bg-white" : "bg-black bg-opacity-30"
+            }`}
+            onClick={() => setPage(5)}></button>
         </div>
       </div>
     </section>
