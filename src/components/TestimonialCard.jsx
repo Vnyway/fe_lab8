@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = ({ img, name, job, speech }) => {
   return (
-    <div className="flex flex-col gap-[20px]">
+    <div className="flex flex-col gap-[20px] w-1/2 shrink-0 px-[20px]">
       <div className="flex gap-[10px] items-center">
         <img src={img} alt={name} className="size-[50px] rounded-full" />
         <div className="flex flex-col gap-[2px]">

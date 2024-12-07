@@ -171,7 +171,7 @@ export const testimonials = [
   },
   {
     id: 5,
-    image: "./images/person_5.jpg",
+    image: "./images/person_2.jpg",
     name: "Allison Holmes",
     job: "Designer",
     speech:
@@ -179,7 +179,7 @@ export const testimonials = [
   },
   {
     id: 6,
-    image: "./images/person_6.jpg",
+    image: "./images/person_3.jpg",
     name: "Allison Holmes",
     job: "Designer",
     speech:
