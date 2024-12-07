@@ -6,7 +6,7 @@ const Hero = () => {
       className="w-full text-white h-[800px] bg-cover bg-no-repeat flex justify-center items-center"
       style={{ backgroundImage: `url("./images/hero_1.jpg")` }}>
       <div className="absolute h-[800px] w-full bg-black bg-opacity-25 -z-1"></div>
-      <div className="absolute h-[800px] w-full flex items-center justify-center flex-col gap-[30px]">
+      <div className="absolute h-[800px] w-full px-[30px] md:px-0 flex items-center justify-center flex-col gap-[30px]">
         <h1 className="font-[700] text-[40px] md:text-[50px] leading-[56px] text-center text-white">
           The Best Place to <br className="hidden sm:block" /> Buy and Sell
         </h1>

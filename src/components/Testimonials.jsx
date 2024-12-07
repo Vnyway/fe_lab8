@@ -14,7 +14,7 @@ const Testimonials = () => {
           (prevPage + 1) %
           (isLarge ? testimonials.length / 2 : testimonials.length)
       );
-    }, 1000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [isLarge]);
