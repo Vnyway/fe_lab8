@@ -135,3 +135,54 @@ export const about = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    image: "./images/person_1.jpg",
+    name: "Allison Holmes",
+    job: "Designer",
+    speech:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!",
+  },
+  {
+    id: 2,
+    image: "./images/person_2.jpg",
+    name: "Allison Holmes",
+    job: "Designer",
+    speech:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!",
+  },
+  {
+    id: 3,
+    image: "./images/person_3.jpg",
+    name: "Allison Holmes",
+    job: "Designer",
+    speech:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!",
+  },
+  {
+    id: 4,
+    image: "./images/person_4.jpg",
+    name: "Allison Holmes",
+    job: "Designer",
+    speech:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!",
+  },
+  {
+    id: 5,
+    image: "./images/person_5.jpg",
+    name: "Allison Holmes",
+    job: "Designer",
+    speech:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!",
+  },
+  {
+    id: 6,
+    image: "./images/person_6.jpg",
+    name: "Allison Holmes",
+    job: "Designer",
+    speech:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!",
+  },
+];
