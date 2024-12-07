@@ -1,3 +1,4 @@
+import React from "react";
 import {
   AboutUs,
   Goods,
@@ -9,14 +10,16 @@ import {
 
 const App = () => {
   return (
-    <>
+    <React.Fragment className="relative">
       <Header />
-      <Hero />
-      <Goods />
-      <Usage />
-      <AboutUs />
-      <Testimonials />
-    </>
+      <main>
+        <Hero />
+        <Goods />
+        <Usage />
+        <AboutUs />
+        <Testimonials />
+      </main>
+    </React.Fragment>
   );
 };
 
