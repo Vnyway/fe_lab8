@@ -87,3 +87,30 @@ export const goods = [
     bids: 123,
   },
 ];
+
+export const steps = [
+  {
+    id: 1,
+    image: "./images/user.png",
+    title: "Register",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.",
+  },
+  {
+    id: 2,
+    image: "./images/wallet.png",
+    title: "Buy or Bid",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.",
+  },
+  {
+    id: 3,
+    image: "./images/wine.png",
+    title: "Submit a bid",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.",
+  },
+  {
+    id: 4,
+    image: "./images/cup.png",
+    title: "Win",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequatur quaerat magnam sequi nobis ut et iure.",
+  },
+];

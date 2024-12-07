@@ -8,7 +8,7 @@ const GoodsCard = ({ id, title, price, bids, category }) => {
         <span className="text-white text-[20px] font-[700]">{price}$</span>
       </div>
       <h3 className="font-[600] text-[27px] h-[70px]">{title}</h3>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center text-text">
         <span>{category}</span>
         <span>{bids} bids</span>
       </div>
